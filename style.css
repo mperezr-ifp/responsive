@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+
+    /* smartphone */
+    body {
+        background: purple;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width:481px) and (max-width:1279px) {
+    
+    /* tablet */
+    body {
+        background: green;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+
+
+@media screen and (min-width:1280px) {
+    /* ordinador */
+    body {
+        background: orange;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+    
+}
+
